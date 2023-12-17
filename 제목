@@ -1,1 +1,94 @@
+body{
+  background-image: url('./images/pattern.png');
+  background-color: rgb(163, 163, 163);
+  background-size: 100px;
+}
 
+.bookcover{
+  height: 560px;
+  width: 960px;
+  margin:100px auto;
+  background-color: rgb(180,208,218,81);
+  border-radius:9px;
+  position:relative;
+}
+.bookdot{
+  height:534px;
+  width:934px;
+  border: dashed white 2px;
+  border-radius:9px;
+  position: absolute;
+  top:12px;
+  left:12px;
+}
+.page{
+  height:520px;
+  width:920px;
+  background-color:white;
+  border-radius: 9px;
+  position: absolute;
+  top:7px;
+  left:7px;
+}
+
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>2022 MINI HOMEPAGE</title>
+    <link rel="stylesheet" href="./static/style.css">
+  </head>
+  <body>
+    <div class="bookcover">
+      <div class="bookdot">
+        <div class="page">
+          <div class="column1">
+            <div class="row1">TODAY 28| TOTAL 238954</div>
+            <div class="row2">
+              <img src="./static/images/레인보노.jfif" alt="레인보노 프로필" class="image">
+              <div class="text1">레인보노</div>
+              <div class="text2">sue06004</div>
+            </div>
+          </div>
+          <div class="column2">
+            <div class="row3">
+              <div class="column3">레인보노의 미니홈피</div>
+              <div class="column4">https://url주소/나중에입력</div>
+            </div>
+            <div class="row4">
+              <div class="updated">
+                <div class="cate">Updated news<hr class="line"></div>
+                <div class="column6">
+                  <div class="row5">
+                    <span class="red">사진첩</span> 1 <br>
+                    <span class="blue">게시판</span> 3 <br>
+                    <span class="blue">게시판</span> 3 <br>
+                    <span class="red">사진첩</span> 4 html/css<br>
+                  </div>
+                  <div class="row6">
+                    다이어리: 0/25 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사진첩:0/25
+                    <hr class="dot">
+                    게시판: 0/25 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;방명록:0/25
+                    <hr class="dot">
+                  </div>
+                </div>
+
+              </div>
+              <div class="updated">
+                <div class="cate">Miniroom <hr class="line"></div>
+              </div>
+            </div>
+          </div>
+          <div class="column5"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<div class="row8">
+  <a href="home.html"><div class="menu">&nbsp;홈</div></a>
+  <a href="#"><div class="menu">&nbsp;다이어리</div></a>
+  <a href="pictures.html"><div class="menu">&nbsp;사진첩</div></a>
+  <a href="#"><div class="menu">&nbsp;방명록</div></a>
+</div>
